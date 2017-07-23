@@ -75,3 +75,8 @@ services:
 
   clusterdata:
     image: fballiano/redis-volatile
+    
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - 8181:80  
